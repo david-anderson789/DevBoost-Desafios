@@ -170,6 +170,9 @@ section.informations .perfi-section{
     padding: 30px;
     margin-right: 40px;
     width: 384px;
+
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
 }
 section.informations .perfi-section h2 {
     font-size: 22px;
@@ -225,6 +228,8 @@ section.informations .perfi-section .number-posts ul li strong {
 
 section.informations .post-section {
     padding: 30px;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
 }
 section.informations .post-section ul {
     display: flex;
