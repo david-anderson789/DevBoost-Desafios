@@ -131,7 +131,7 @@ section.banner .banner-text{
     justify-content: space-between;
     align-items: flex-start;
 
-    padding: 60px 180px;
+    padding: 60px 180px 60px 120px;
 }
 section.banner .banner-text h1{
     color: var(--white);
