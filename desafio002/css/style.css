@@ -174,7 +174,12 @@ section.informations .perfi-section{
     border: 1px solid #EBEBEB;
     border-radius: 8px;
 }
-section.informations .perfi-section h2 {
+section.informations .perfi-section #perfil-position {
+   
+    width: 100%;
+    text-align: start;
+}
+section.informations .perfi-section #perfil-position h2{
     font-size: 22px;
     line-height: 40px;
 }
@@ -197,7 +202,6 @@ section.informations .perfi-section .number-posts{
     padding: 0px 20px 0 20px;
 
     border: 1px solid #D9D9D9;
-    box-sizing: border-box;
     border-radius: 5px;
 }
 section.informations .perfi-section ul li.active {
@@ -227,9 +231,14 @@ section.informations .perfi-section .number-posts ul li strong {
 }
 
 section.informations .post-section {
-    padding: 30px;
+    padding: 20px;
     border: 1px solid #EBEBEB;
     border-radius: 8px;
+}
+
+section.informations .post-section h2 {
+    font-size: 22px;
+    line-height: 40px;
 }
 section.informations .post-section ul {
     display: flex;
@@ -237,13 +246,21 @@ section.informations .post-section ul {
     align-items: center;
     list-style: none;
 }
-section.informations .post-section h2 {
-    font-size: 22px;
-    line-height: 40px;
+section.informations .post-section ul li{
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 15px;
 }
 
 section.informations .post-section ul li img {
-    margin-top: 15px;
     margin-bottom: 17px;
 }
 section.informations .post-section ul li button {
@@ -260,4 +277,8 @@ section.informations .post-section ul li p {
     font-size: 13px;
     line-height: 23px;
     color: var(--link-menu);
+    margin: 6px 0 15px 0;
+}
+section.informations .post-section ul li .padding-cards {
+    padding: 0 0 0 20px;
 }
