@@ -159,7 +159,7 @@ section.banner .banner-text button{
 section.informations {
     display: flex;
     justify-content: space-between;
-    
+    margin-top: 36px;
 }
 section.informations .perfi-section{
     display: flex;
