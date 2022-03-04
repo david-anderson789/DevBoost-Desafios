@@ -247,7 +247,7 @@ section.informations .post-section ul {
     list-style: none;
 }
 section.informations .post-section ul li{
-    border: 1px solid #D9D9D9;
+    
     border-radius: 5px;
 
     padding: 0;
@@ -278,7 +278,4 @@ section.informations .post-section ul li p {
     line-height: 23px;
     color: var(--link-menu);
     margin: 6px 0 15px 0;
-}
-section.informations .post-section ul li .padding-cards {
-    padding: 0 0 0 20px;
 }
